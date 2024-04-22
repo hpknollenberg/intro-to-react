@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom"
+import Menu from "./Menu"
 
-function About() {
+function Contacts() {
   return (
     <div className="p-5">
+      <Menu />
       <Link to='/'>{'<- Back'}</Link>
-      <h1>About Page</h1>
+      <h1>Contacts Page</h1>
     </div>
   )
 }
 
 
-export default About
+export default Contacts

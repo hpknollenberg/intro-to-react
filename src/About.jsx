@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Menu from "./Menu"
 
 
 const Cohort = () => {
@@ -24,9 +25,9 @@ const Cohort = () => {
 function About() {
   return (
     <div className="p-5">
+      <Menu />
       <Link to='/'>{'<- Back'}</Link>
       <br></br>
-      <Link to='/contacts'>Contacts</Link>
       <h1>About Page</h1>
       <Cohort />
     </div>
